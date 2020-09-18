@@ -1,4 +1,4 @@
-package school.management.sys;
+package SchoolManager;
 
 public class Teacher {
 
@@ -9,7 +9,7 @@ public class Teacher {
 
     public Teacher(int ID, String name, int salary){
 
-        this.id = id;
+        this.id = ID;
         this.name = name;
         this.salary = salary;
 

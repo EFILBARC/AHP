@@ -1,4 +1,4 @@
-package school.management.sys;
+package SchoolManager;
 
 /**
  * Keep track of student IDs, names, grades, tuitions, and payments.

@@ -1,4 +1,4 @@
-package bank.sys;
+package BankSystem;
 
 import java.util.Scanner;
 
@@ -36,6 +36,7 @@ public class BankApp {
                 System.out.println("Your new balance is $" + bal + ".");
             }
             else if(amount <= 0){
+                System.out.println("Unable to complete transaction.");
             }
             else {
                 System.out.println("You can only withdraw up to $" + bal + ".");
